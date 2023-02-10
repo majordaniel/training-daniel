@@ -103,6 +103,55 @@ class IdCardHome extends StatelessWidget {
                 style: TextStyle(fontSize: 32),
               ),
             ),
+          ),
+          const SizedBox(
+            height: 30,
+          ),
+          Container(
+            margin: const EdgeInsets.symmetric(horizontal: 50),
+            width: double.infinity,
+            decoration: const BoxDecoration(
+              border: Border(
+                bottom: BorderSide(
+                  width: 10,
+                ),
+              ),
+            ),
+            child: const Center(
+              child: Text(
+                "Staff ID/Position",
+                style: TextStyle(fontSize: 32),
+              ),
+            ),
+          ),
+          const SizedBox(
+            height: 30,
+          ),
+          Container(
+            margin: const EdgeInsets.symmetric(horizontal: 50),
+            width: double.infinity,
+            decoration: const BoxDecoration(
+              border: Border(
+                bottom: BorderSide(
+                  width: 5,
+                ),
+                top: BorderSide(
+                  width: 5,
+                ),
+                left: BorderSide(
+                  width: 5,
+                ),
+                right: BorderSide(
+                  width: 5,
+                ),
+              ),
+            ),
+            child: const Center(
+              child: Text(
+                "Contact Us",
+                style: TextStyle(fontSize: 32),
+              ),
+            ),
           )
         ],
       ),
